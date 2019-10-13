@@ -15,7 +15,8 @@ make-index:index.html
 # 	# File exists, continue or do something else...
 # 	rm $(FILE)
 # endif	
-make-styles:styles.css
+make-styles:styles.css styles_BLUE.css
 	scp styles.css $(REMOTE):/home/inf2015/kpetsis/public_html/
+	scp styles_BLUE.css $(REMOTE):/home/inf2015/kpetsis/public_html/
 make-img:img
 	scp -r img/ $(REMOTE):/home/inf2015/kpetsis/public_html/

@@ -81,7 +81,7 @@ body{
 
 }
 .sidebar a:hover{
-	color:white;
+	color:rgb(255, 198, 93);
 }
 /* .sidebar,
 .content,
@@ -163,6 +163,7 @@ nav li a:hover{
 }
 .action-btn:hover{
 	box-shadow: 0 10px 50px rgb(255, 198, 93);
+	color:rgb(255, 198, 93);
 }
 footer ul{
 	max-width: 100vw;
@@ -281,6 +282,28 @@ footer p{
 	/* padding-bottom: 60px; */
 	/* padding-top:30px; */
 	}
+	footer  li{
+		/* margin:-5px; */
+		margin-top:100px;
+		margin-bottom:30px;
+		/* padding-bottom:20px; */
+		width:15vw;
+		max-width:20vw;
+		/* height:15vh;
+		max-height:15vh; */
+	}
+	footer span p{
+		/* text-align: center;
+		align-items: center;
+		display:table-cell;
+		vertical-align: top;
+		 height: 10px;
+		 width:15vw;
+		max-width:15vw;
+		
+		font-size:50%; */
+		/* 	border:5px solid red; */
+	}
 	li{
 		/* margin-top: 20px;
 		margin-bottom:-70px;
@@ -294,7 +317,7 @@ footer p{
 		height:20vh;
 		margin-bottom:100px;
 		padding-bottom:100px;
-		background:red;
+		/* background:red; */
 	}
 	.content{
 		padding-top:0px;
@@ -351,7 +374,7 @@ footer p{
 		/* display: inline-block; */
 		width:15vw;
 		max-width:15vw;
-		
+		/* border: 5px solid red; */
 		font-size:50%;
 		/* overflow:auto; */
 	}
@@ -361,4 +384,118 @@ footer p{
 		padding:0vh;
 		padding-top:-20vh;
 	}
+}
+@media screen and (max-width: 481px){
+	html{
+		/* border:5px solid red; */
+		max-width:100vw;
+		width:100vw;
+	}
+	body{
+		/* border:5px solid green; */
+		max-width:100vw;
+		width:100vw;
+	}
+	.container{
+		max-width:100vw;
+		width:100vw;
+		padding:0px;
+		margin:0px;
+		grid-template-areas:
+			"sidebar"
+			"content"
+			"footer";
+		grid-template-columns:100vw;
+		grid-template-rows: auto auto auto;
+	}
+	.sidebar{
+		max-width: 100vw;
+		width:100vw;	
+		margin:0px;
+		padding:0px;
+	}
+	.sidebar nav ul{
+		max-width:100vw;
+		width:100vw;
+		font-size:80%;
+		margin:0px;
+		padding:0px;
+		/* margin:80%; */
+	}
+	.sidebar nav{
+		margin:0px;
+		padding:0px;
+		/* height:50%; */
+	}
+	.sidebar li{
+		max-width: 80%;
+		width:80%;
+		font-size:90%;
+		font-weight:200%;
+		padding-top:20px;
+		margin:0px;
+		padding-bottom:20px;
+		padding-left:5px;
+		/* border:5px solid yellow; */
+	}
+	.content h1 {
+		font-size:80%;
+	}
+
+	.content p {
+		font-size:80%;
+	}
+	.content{
+		/* border:5px solid purple; */
+		max-height:100vh;
+		height:100vh;
+		margin:0px;
+		padding:0px;
+		max-width:100vw;
+		width:100vw;
+	}
+	content .hero .hero-content{
+		/* border:5px solid red; */
+		margin:0px;
+		max-height:100vh;
+		height:100vh;
+		padding:0px;
+		margin:0px;
+	}
+	
+	/*write your CSS-Code here*/
+	.footer footer{
+		margin-top:0vh;
+		margin-bottom:0vh;
+		padding:0vh;
+		padding-top:0vh;
+		max-width: 10vw;
+		height:20vh;
+		width:100vw;
+		max-width: 100vw;
+	}
+	.footer footer li{
+		padding:0px;
+		margin:0px;
+	}
+	/* footer span p{
+		text-align: center;
+		align-items: center;
+		display:table-cell;
+		vertical-align: top;
+		 height: 10px;
+		 width:15vw;
+		max-width:15vw;
+		
+		font-size:50%; 
+		border:5px solid red;
+	} */
+}
+div.footer li:hover,
+div.footer a:hover,
+div.footer p:hover,
+div.footer i:hover,
+div.footer span:hover
+{
+	color:rgb(255, 198, 93);
 }

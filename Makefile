@@ -11,6 +11,7 @@ make-index:index.html
 
 	scp index.html $(REMOTE):/home/inf2015/kpetsis/public_html/
 	scp projects.html $(REMOTE):/home/inf2015/kpetsis/public_html/
+	scp report.pdf $(REMOTE):/home/inf2015/kpetsis/public_html/
 	# cd ~/Desktop/Σχολή/WWW/www-tech-proj1/
 # else
 # 	# second time to do-make command(dont vpn)
